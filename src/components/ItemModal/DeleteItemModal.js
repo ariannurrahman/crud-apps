@@ -41,7 +41,9 @@ const DeleteItemModal = ({ id, isOpen, toggle }) => {
         <Button color="danger" onClick={onClickDelete}>
           Delete
         </Button>
-        <Button color="secondary">Cancel</Button>
+        <Button color="secondary" onClick={toggle}>
+          Cancel
+        </Button>
       </ModalFooter>
     </Modal>
   );
